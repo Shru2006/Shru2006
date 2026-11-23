@@ -20,10 +20,11 @@ Today I lead analytics for home buying at an Australian bank. On GitHub I publis
 | Project | What it does | Outcome |
 |---|---|---|
 | [**First Home Buyer Lead Intelligence**](https://github.com/Shru2006/first-home-buyer-lead-intelligence) | LightGBM propensity model + SHAP reason codes + fairness checks + Claude-written lender briefs, in a Streamlit app | Top 10% of ranked customers captures **49% of future applicants** (**4.9x lift**, ROC-AUC 0.85) on a 12,500-customer test set |
+| [**Outreach Uplift Modelling**](https://github.com/Shru2006/outreach-uplift-modelling) | Causal targeting: S-, T- and X-learners vs propensity ranking on a randomised outreach experiment, scored with Qini curves and known true uplift | Same call budget, **60% more incremental applications** than propensity targeting (108 vs 68 per 1,000 calls), reaching 94% of the best possible |
 
 *Earlier work:* [customer churn modelling](https://github.com/Shru2006/Modelling-Customer-Churn) on a public bank churn dataset.
 
-*Coming next:* uplift modelling for outreach, an evaluation harness for LLM briefs, and model monitoring with drift alerts.
+*Coming next:* an evaluation harness for LLM briefs, and model monitoring with drift alerts.
 
 ---
 
